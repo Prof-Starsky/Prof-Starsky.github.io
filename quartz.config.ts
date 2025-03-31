@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Prof-Starsky's Digital Garden",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "https://prof-starsky.github.io/",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian"], // Ensure subfolders like 'obsidian', 'CTF', 'WRITEUPS' are not ignored
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
@@ -87,8 +87,8 @@ const config: QuartzConfig = {
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      // Comment out CustomOgImages to avoid build errors
+      // Plugin.CustomOgImages(),
     ],
   },
 }
