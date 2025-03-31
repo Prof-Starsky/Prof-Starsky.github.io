@@ -6,6 +6,12 @@
       <description>Last 10 notes on Prof-Starsky&#039;s Digital Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Join our Discord</title>
+    <link>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Join-our-Discord</link>
+    <guid>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Join-our-Discord</guid>
+    <description>Description Join our Discord Misc Worth 25 Points discord.gg/9H6HbcMk7X Solution After reading the challenge description I decided to follow the link to see where it went.</description>
+    <pubDate>Mon, 31 Mar 2025 22:08:17 GMT</pubDate>
+  </item><item>
     <title>Frequencies-of-Deception</title>
     <link>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/Frequencies-of-Deception</link>
     <guid>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/Frequencies-of-Deception</guid>
@@ -58,12 +64,6 @@
     <link>https://https://prof-starsky.github.io/CTF/CTF</link>
     <guid>https://https://prof-starsky.github.io/CTF/CTF</guid>
     <description>Categories Binary Exploitation Cryptography Forensics Open Source Intelligence Reverse Engineering Web Exploitation Miscellaneous CTFs ISSESSIONS CTF.</description>
-    <pubDate>Mon, 31 Mar 2025 03:16:59 GMT</pubDate>
-  </item><item>
-    <title>ISSESSIONS CTF</title>
-    <link>https://https://prof-starsky.github.io/CTF/CTFS/ISSESSIONS-CTF</link>
-    <guid>https://https://prof-starsky.github.io/CTF/CTFS/ISSESSIONS-CTF</guid>
-    <description></description>
     <pubDate>Mon, 31 Mar 2025 03:16:59 GMT</pubDate>
   </item>
     </channel>
