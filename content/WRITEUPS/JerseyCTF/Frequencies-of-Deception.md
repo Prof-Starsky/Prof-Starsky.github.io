@@ -19,6 +19,7 @@ Then it had an attached 'unknown.wav' file
 
 
 ## Solution
+
 After listening to the wav file, I immediately recognized it as those old dial tones where each tone corresponded to a certain number/symbol (I can't believe this is considered old now). So I knew that I somehow had to decipher what tones corresponded with which numbers/symbols and had to collect them somehow.
 
 I asked my teammates if they knew any program that could decipher this and Wxrth led me to a dtmf-detector, that led me to a nice app https://dtmf.netlify.app/
@@ -40,6 +41,7 @@ dOnT_C0me_$tAY_aW@Y_Fr0M_th!s_Pl@cE
 
 
 ## Flag
+
 I then wrapped that with the specific flag format for Frequencies-of-Deception and got the correct flag:
 jctf{dOnT_C0me_$tAY_aW@Y_Fr0M_th!s_Pl@cE}
 

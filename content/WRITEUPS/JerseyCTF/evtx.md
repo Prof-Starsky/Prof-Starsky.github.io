@@ -1,6 +1,7 @@
 [[Forensics]]
 
 ## Description
+
 ```
 evtx
 Forensics
@@ -18,6 +19,7 @@ In that file, it contained 141 different events
 
 
 ## Solution
+
 After looking through every event, I found that all events with Event ID 4625 corresponded to a failed log on which is what I need for the flag.
 
 So, there 17 different instances of failed logons, but they weren't necessarily brute force failed attempts, they could've been a regular user just mis-entering their password, so I had to dig a little deeper.
@@ -41,6 +43,7 @@ and were targeted at random users, which made me think these were just accidenta
 So, I counted each of the failed logon attempts on User500 between 1:28:16 and 1:29:04 and found there were 11 attempts.
 
 ## Flag
+
 I then took User500 and 11, and put it into the flag format for this questions: jctfv{Name_Number} and got the correct flag:
 jctfv{User500_11}
 

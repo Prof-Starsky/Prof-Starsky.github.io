@@ -1,5 +1,6 @@
 [[Forensics]]
-## Description:
+## Description
+
 ```
 The-Veiled-Backtrace
 Forensics 
@@ -19,6 +20,7 @@ And it had a download link to 'archive.zip' which contained 100 jpg files and 1 
 
 
 ## Solution
+
 Initially, because this was a forensics challenge, I thought I had to go through each image in order to find some sort of hidden data, so I spent ~30 minutes putting the jpgs through exiftool in order to find anything, but came up with nothing.
 Then I realized (After way too long) that there was a non-jpg file in the zip: '...'
 
@@ -35,5 +37,6 @@ And from that I noticed what the flag format was trying to get:
 jctf{IP:Port} Note: The IP is not a valid/real IP, this is for your protection
 
 ## Flag
+
 So after putting them together I got the flag
 "jctf{678.462.146.334:8789}"

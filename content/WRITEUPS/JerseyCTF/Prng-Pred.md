@@ -109,5 +109,6 @@ Shift parameters a, b, c = (13, 7, 17) --> Next value = 2506751581
 ```
 
 ## Flag
+
 After inputting 2506751581 into the website it confirmed that my prediction was right and outputted the flag:
 jctfv{Predictable_PRNG_Rizzed}
