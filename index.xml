@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Prof-Starsky&#039;s Digital Garden</title>
+      <link>https://https://prof-starsky.github.io/</link>
+      <description>Last 10 notes on Prof-Starsky&#039;s Digital Garden</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Welcome to Prof-Starsky&#039;s Digital Garden</title>
+    <link>https://https://prof-starsky.github.io/</link>
+    <guid>https://https://prof-starsky.github.io/</guid>
+    <description>Welcome to Prof-Starsky’s Digital Garden! This is my collection of notes, writeups, and projects.</description>
+    <pubDate>Mon, 31 Mar 2025 04:32:05 GMT</pubDate>
+  </item><item>
+    <title>dummy-trigger</title>
+    <link>https://https://prof-starsky.github.io/dummy-trigger</link>
+    <guid>https://https://prof-starsky.github.io/dummy-trigger</guid>
+    <description></description>
+    <pubDate>Mon, 31 Mar 2025 03:28:58 GMT</pubDate>
+  </item><item>
+    <title>Binary Exploitation</title>
+    <link>https://https://prof-starsky.github.io/CTF/Bin-Exp/Binary-Exploitation</link>
+    <guid>https://https://prof-starsky.github.io/CTF/Bin-Exp/Binary-Exploitation</guid>
+    <description></description>
+    <pubDate>Mon, 31 Mar 2025 03:16:59 GMT</pubDate>
+  </item><item>
+    <title>CTF</title>
+    <link>https://https://prof-starsky.github.io/CTF/CTF</link>
+    <guid>https://https://prof-starsky.github.io/CTF/CTF</guid>
+    <description>Categories Binary Exploitation Cryptography Forensics Open Source Intelligence Reverse Engineering Web Exploitation Miscellaneous CTFs ISSESSIONS CTF.</description>
+    <pubDate>Mon, 31 Mar 2025 03:16:59 GMT</pubDate>
+  </item><item>
+    <title>ISSESSIONS CTF</title>
+    <link>https://https://prof-starsky.github.io/CTF/CTFS/ISSESSIONS-CTF</link>
+    <guid>https://https://prof-starsky.github.io/CTF/CTFS/ISSESSIONS-CTF</guid>
+    <description></description>
+    <pubDate>Mon, 31 Mar 2025 03:16:59 GMT</pubDate>
+  </item><item>
+    <title>MagpieCTF</title>
+    <link>https://https://prof-starsky.github.io/CTF/CTFS/MagpieCTF</link>
+    <guid>https://https://prof-starsky.github.io/CTF/CTFS/MagpieCTF</guid>
+    <description></description>
+    <pubDate>Mon, 31 Mar 2025 03:16:59 GMT</pubDate>
+  </item><item>
+    <title>PicoCTF</title>
+    <link>https://https://prof-starsky.github.io/CTF/CTFS/PicoCTF</link>
+    <guid>https://https://prof-starsky.github.io/CTF/CTFS/PicoCTF</guid>
+    <description></description>
+    <pubDate>Mon, 31 Mar 2025 03:16:59 GMT</pubDate>
+  </item><item>
+    <title>Atbash</title>
+    <link>https://https://prof-starsky.github.io/CTF/Cryptography/Ciphers/Atbash</link>
+    <guid>https://https://prof-starsky.github.io/CTF/Cryptography/Ciphers/Atbash</guid>
+    <description>Tools: www.dcode.fr/atbash-cipher Very simple cipher, it just reverses the order of the alphabet so to say.</description>
+    <pubDate>Mon, 31 Mar 2025 03:16:59 GMT</pubDate>
+  </item><item>
+    <title>BCrypt</title>
+    <link>https://https://prof-starsky.github.io/CTF/Cryptography/Ciphers/BCrypt</link>
+    <guid>https://https://prof-starsky.github.io/CTF/Cryptography/Ciphers/BCrypt</guid>
+    <description>Hashing Blowfish Tools: gchq.github.io/CyberChef/#recipe=Bcrypt(10) www.devglan.com/online-tools/bcrypt-hash-generator www.dcode.fr/crypt-hashing-function Note: There is no easy way of decoding a BCrypt Cipher Of those tools above, I’m not sure if any could actually break a fully secure BCrypt en.wi...</description>
+    <pubDate>Mon, 31 Mar 2025 03:16:59 GMT</pubDate>
+  </item><item>
+    <title>Base32</title>
+    <link>https://https://prof-starsky.github.io/CTF/Cryptography/Ciphers/Base32</link>
+    <guid>https://https://prof-starsky.github.io/CTF/Cryptography/Ciphers/Base32</guid>
+    <description>Base Tools: www.dcode.fr/base-32-encoding gchq.github.io/CyberChef/ cryptii.com/pipes/base32 especially good for the different variants of Base32 Base32 is a binary to text encoding scheme that represents binary data in an ASCII string format Uses: Or it uses: Or it uses: Or it uses: Note they also ...</description>
+    <pubDate>Mon, 31 Mar 2025 03:16:59 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
