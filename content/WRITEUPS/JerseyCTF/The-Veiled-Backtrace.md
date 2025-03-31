@@ -1,12 +1,13 @@
-
-
+[[Forensics]]
 ## Description:
-
+```
 The-Veiled-Backtrace
-Forensics
-Worth 930 Points
-Easy
+Forensics 
+Worth 930 Points 
+Easy 
 By Trent
+```
+
 
 A hard drive full of photos. Hundreds of still frames, nothing out of the ordinary. But something’s tucked away — veiled, deliberate. One image holds more than meets the eye. Peel back the layers. Follow the trace.
 
