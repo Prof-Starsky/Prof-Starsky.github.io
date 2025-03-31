@@ -40,6 +40,6 @@ dOnT_C0me_$tAY_aW@Y_Fr0M_th!s_Pl@cE
 
 
 # Flag
-I then wrapped dOnT_C0me_$tAY_aW@Y_Fr0M_th!s_Pl@cE with the specific flag format for Frequencies-of-Deception and got the correct flag:
+I then wrapped that with the specific flag format for Frequencies-of-Deception and got the correct flag:
 jctf{dOnT_C0me_$tAY_aW@Y_Fr0M_th!s_Pl@cE}
 
