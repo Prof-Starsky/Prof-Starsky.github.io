@@ -6,6 +6,12 @@
       <description>Last 10 notes on Prof-Starsky&#039;s Digital Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Welcome to Prof-Starsky&#039;s CTF Write-up Digital Garden</title>
+    <link>https://https://prof-starsky.github.io/</link>
+    <guid>https://https://prof-starsky.github.io/</guid>
+    <description>This is my collection of my CTF writeups Writeups - Detailed writeups for various projects and challenges.</description>
+    <pubDate>Mon, 31 Mar 2025 19:33:50 GMT</pubDate>
+  </item><item>
     <title>Prng-Pred</title>
     <link>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/Prng-Pred</link>
     <guid>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/Prng-Pred</guid>
@@ -23,18 +29,6 @@
     <guid>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/Read-the-Rules</guid>
     <description>Worth 1 pt JerseyCTF V Rules Please open the attached pdf, and read the rules and terms &amp; conditions to gain access to all the challenges for JerseyCTF V (the flag is in the pdf) Notes for the JerseyCTF V Please note that all flags are case sensitive, and unless otherwise specified in the challe...</description>
     <pubDate>Mon, 31 Mar 2025 16:31:53 GMT</pubDate>
-  </item><item>
-    <title>Welcome to Prof-Starsky&#039;s CTF Write-up Digital Garden</title>
-    <link>https://https://prof-starsky.github.io/</link>
-    <guid>https://https://prof-starsky.github.io/</guid>
-    <description>Welcome to Prof-Starsky’s Digital Garden! This is my collection of my CTF writeups Sections Writeups - Detailed writeups for various projects and challenges.</description>
-    <pubDate>Mon, 31 Mar 2025 16:31:53 GMT</pubDate>
-  </item><item>
-    <title>dummy-trigger</title>
-    <link>https://https://prof-starsky.github.io/dummy-trigger</link>
-    <guid>https://https://prof-starsky.github.io/dummy-trigger</guid>
-    <description></description>
-    <pubDate>Mon, 31 Mar 2025 03:28:58 GMT</pubDate>
   </item><item>
     <title>Binary Exploitation</title>
     <link>https://https://prof-starsky.github.io/CTF/Bin-Exp/Binary-Exploitation</link>
@@ -64,6 +58,12 @@
     <link>https://https://prof-starsky.github.io/CTF/CTFS/PicoCTF</link>
     <guid>https://https://prof-starsky.github.io/CTF/CTFS/PicoCTF</guid>
     <description></description>
+    <pubDate>Mon, 31 Mar 2025 03:16:59 GMT</pubDate>
+  </item><item>
+    <title>Atbash</title>
+    <link>https://https://prof-starsky.github.io/CTF/Cryptography/Ciphers/Atbash</link>
+    <guid>https://https://prof-starsky.github.io/CTF/Cryptography/Ciphers/Atbash</guid>
+    <description>Tools: www.dcode.fr/atbash-cipher Very simple cipher, it just reverses the order of the alphabet so to say.</description>
     <pubDate>Mon, 31 Mar 2025 03:16:59 GMT</pubDate>
   </item>
     </channel>
