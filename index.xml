@@ -10,31 +10,37 @@
     <link>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/Frequencies-of-Deception</link>
     <guid>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/Frequencies-of-Deception</guid>
     <description>Forensics Description Frequencies-of-Deception Forensics Worth 822 Points Easy By Trent An intercepted audio transmission carries a veiled warning.</description>
-    <pubDate>Mon, 31 Mar 2025 20:16:19 GMT</pubDate>
+    <pubDate>Mon, 31 Mar 2025 20:47:14 GMT</pubDate>
+  </item><item>
+    <title>Prng-Pred</title>
+    <link>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/Prng-Pred</link>
+    <guid>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/Prng-Pred</guid>
+    <description>Cryptography XOR Cipher Description Prng-Pred Cryptography Worth 919 Points Hard By KDShetty11 We created a custom random number generator using XOR-Shift to help us generate pseudorandom numbers.</description>
+    <pubDate>Mon, 31 Mar 2025 20:47:14 GMT</pubDate>
+  </item><item>
+    <title>The-Hidden-Key</title>
+    <link>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/The-Hidden-Key</link>
+    <guid>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/The-Hidden-Key</guid>
+    <description>Cryptography RSA Cipher Description The-Hidden-Key Cryptography Worth 100 points Easy By Dylan An anonymous party was using Wireshark looking network activity and stumbled across this encrypted text, they then notified NICC and sent the file.</description>
+    <pubDate>Mon, 31 Mar 2025 20:47:14 GMT</pubDate>
+  </item><item>
+    <title>The-Veiled-Backtrace</title>
+    <link>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/The-Veiled-Backtrace</link>
+    <guid>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/The-Veiled-Backtrace</guid>
+    <description>Forensics Description The-Veiled-Backtrace Forensics Worth 930 Points Easy By Trent A hard drive full of photos.</description>
+    <pubDate>Mon, 31 Mar 2025 20:47:14 GMT</pubDate>
   </item><item>
     <title>evtx</title>
     <link>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/evtx</link>
     <guid>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/evtx</guid>
     <description>Forensics Description evtx Forensics Worth 453 Points Easy By Jan It appears that one of the low-level grunts of the NICC organization have gone rogue.</description>
-    <pubDate>Mon, 31 Mar 2025 20:16:19 GMT</pubDate>
+    <pubDate>Mon, 31 Mar 2025 20:47:14 GMT</pubDate>
   </item><item>
     <title>Welcome to Prof-Starsky&#039;s CTF Write-up Digital Garden</title>
     <link>https://https://prof-starsky.github.io/</link>
     <guid>https://https://prof-starsky.github.io/</guid>
     <description>This is my collection of my CTF writeups Writeups - Detailed writeups for various projects and challenges.</description>
     <pubDate>Mon, 31 Mar 2025 19:33:50 GMT</pubDate>
-  </item><item>
-    <title>Prng-Pred</title>
-    <link>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/Prng-Pred</link>
-    <guid>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/Prng-Pred</guid>
-    <description>Cryptography XOR Cipher Description Prng-Pred Cryptography Worth 919 Points Hard By KDShetty11 We created a custom random number generator using XOR-Shift to help us generate pseudorandom numbers.</description>
-    <pubDate>Mon, 31 Mar 2025 19:26:07 GMT</pubDate>
-  </item><item>
-    <title>The-Veiled-Backtrace</title>
-    <link>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/The-Veiled-Backtrace</link>
-    <guid>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/The-Veiled-Backtrace</guid>
-    <description>Forensics Description: The-Veiled-Backtrace Forensics Worth 930 Points Easy By Trent A hard drive full of photos.</description>
-    <pubDate>Mon, 31 Mar 2025 18:17:37 GMT</pubDate>
   </item><item>
     <title>Read the Rules</title>
     <link>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/Read-the-Rules</link>
@@ -57,12 +63,6 @@
     <title>ISSESSIONS CTF</title>
     <link>https://https://prof-starsky.github.io/CTF/CTFS/ISSESSIONS-CTF</link>
     <guid>https://https://prof-starsky.github.io/CTF/CTFS/ISSESSIONS-CTF</guid>
-    <description></description>
-    <pubDate>Mon, 31 Mar 2025 03:16:59 GMT</pubDate>
-  </item><item>
-    <title>MagpieCTF</title>
-    <link>https://https://prof-starsky.github.io/CTF/CTFS/MagpieCTF</link>
-    <guid>https://https://prof-starsky.github.io/CTF/CTFS/MagpieCTF</guid>
     <description></description>
     <pubDate>Mon, 31 Mar 2025 03:16:59 GMT</pubDate>
   </item>
