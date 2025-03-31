@@ -6,11 +6,17 @@
       <description>Last 10 notes on Prof-Starsky&#039;s Digital Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Welcome to Prof-Starsky&#039;s Digital Garden</title>
+    <title>Read the Rules</title>
+    <link>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/Read-the-Rules</link>
+    <guid>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/Read-the-Rules</guid>
+    <description>Worth 1 pt JerseyCTF V Rules Please open the attached pdf, and read the rules and terms &amp; conditions to gain access to all the challenges for JerseyCTF V (the flag is in the pdf) Notes for the JerseyCTF V Please note that all flags are case sensitive, and unless otherwise specified in the challe...</description>
+    <pubDate>Mon, 31 Mar 2025 16:31:53 GMT</pubDate>
+  </item><item>
+    <title>Welcome to Prof-Starsky&#039;s CTF Write-up Digital Garden</title>
     <link>https://https://prof-starsky.github.io/</link>
     <guid>https://https://prof-starsky.github.io/</guid>
-    <description>Welcome to Prof-Starsky’s Digital Garden! This is my collection of notes, writeups, and projects.</description>
-    <pubDate>Mon, 31 Mar 2025 04:42:39 GMT</pubDate>
+    <description>Welcome to Prof-Starsky’s Digital Garden! This is my collection of my CTF writeups Sections Writeups - Detailed writeups for various projects and challenges.</description>
+    <pubDate>Mon, 31 Mar 2025 16:31:53 GMT</pubDate>
   </item><item>
     <title>dummy-trigger</title>
     <link>https://https://prof-starsky.github.io/dummy-trigger</link>
@@ -58,12 +64,6 @@
     <link>https://https://prof-starsky.github.io/CTF/Cryptography/Ciphers/BCrypt</link>
     <guid>https://https://prof-starsky.github.io/CTF/Cryptography/Ciphers/BCrypt</guid>
     <description>Hashing Blowfish Tools: gchq.github.io/CyberChef/#recipe=Bcrypt(10) www.devglan.com/online-tools/bcrypt-hash-generator www.dcode.fr/crypt-hashing-function Note: There is no easy way of decoding a BCrypt Cipher Of those tools above, I’m not sure if any could actually break a fully secure BCrypt en.wi...</description>
-    <pubDate>Mon, 31 Mar 2025 03:16:59 GMT</pubDate>
-  </item><item>
-    <title>Base32</title>
-    <link>https://https://prof-starsky.github.io/CTF/Cryptography/Ciphers/Base32</link>
-    <guid>https://https://prof-starsky.github.io/CTF/Cryptography/Ciphers/Base32</guid>
-    <description>Base Tools: www.dcode.fr/base-32-encoding gchq.github.io/CyberChef/ cryptii.com/pipes/base32 especially good for the different variants of Base32 Base32 is a binary to text encoding scheme that represents binary data in an ASCII string format Uses: Or it uses: Or it uses: Or it uses: Note they also ...</description>
     <pubDate>Mon, 31 Mar 2025 03:16:59 GMT</pubDate>
   </item>
     </channel>
