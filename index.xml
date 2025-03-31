@@ -6,6 +6,12 @@
       <description>Last 10 notes on Prof-Starsky&#039;s Digital Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Prng-Pred</title>
+    <link>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/Prng-Pred</link>
+    <guid>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/Prng-Pred</guid>
+    <description>Cryptography XOR Cipher Description Prng-Pred Cryptography Worth 919 Points Hard By KDShetty11 We created a custom random number generator using XOR-Shift to help us generate pseudorandom numbers.</description>
+    <pubDate>Mon, 31 Mar 2025 19:26:07 GMT</pubDate>
+  </item><item>
     <title>The-Veiled-Backtrace</title>
     <link>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/The-Veiled-Backtrace</link>
     <guid>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/The-Veiled-Backtrace</guid>
@@ -58,12 +64,6 @@
     <link>https://https://prof-starsky.github.io/CTF/CTFS/PicoCTF</link>
     <guid>https://https://prof-starsky.github.io/CTF/CTFS/PicoCTF</guid>
     <description></description>
-    <pubDate>Mon, 31 Mar 2025 03:16:59 GMT</pubDate>
-  </item><item>
-    <title>Atbash</title>
-    <link>https://https://prof-starsky.github.io/CTF/Cryptography/Ciphers/Atbash</link>
-    <guid>https://https://prof-starsky.github.io/CTF/Cryptography/Ciphers/Atbash</guid>
-    <description>Tools: www.dcode.fr/atbash-cipher Very simple cipher, it just reverses the order of the alphabet so to say.</description>
     <pubDate>Mon, 31 Mar 2025 03:16:59 GMT</pubDate>
   </item>
     </channel>
