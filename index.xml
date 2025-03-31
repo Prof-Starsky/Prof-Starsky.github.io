@@ -6,6 +6,18 @@
       <description>Last 10 notes on Prof-Starsky&#039;s Digital Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Pwn</title>
+    <link>https://https://prof-starsky.github.io/CTF/Pwn/Pwn</link>
+    <guid>https://https://prof-starsky.github.io/CTF/Pwn/Pwn</guid>
+    <description></description>
+    <pubDate>Mon, 31 Mar 2025 22:41:00 GMT</pubDate>
+  </item><item>
+    <title>Beginner Pwn 1</title>
+    <link>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Beginner-Pwn-1</link>
+    <guid>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Beginner-Pwn-1</guid>
+    <description>Pwn Description Beginner Pwn 1 Pwn Worth 25 Points Are you really admin? This challenge serves as an introduction to pwn that new ctfers can use to grasp basic pwn concepts.</description>
+    <pubDate>Mon, 31 Mar 2025 22:41:00 GMT</pubDate>
+  </item><item>
     <title>Pretty Picture Double Exposure</title>
     <link>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Pretty-Picture-Double-Exposure</link>
     <guid>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Pretty-Picture-Double-Exposure</guid>
@@ -53,18 +65,6 @@
     <guid>https://https://prof-starsky.github.io/</guid>
     <description>This is my collection of my CTF writeups Writeups - Detailed writeups for various projects and challenges.</description>
     <pubDate>Mon, 31 Mar 2025 19:33:50 GMT</pubDate>
-  </item><item>
-    <title>Read the Rules</title>
-    <link>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/Read-the-Rules</link>
-    <guid>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/Read-the-Rules</guid>
-    <description>Worth 1 pt JerseyCTF V Rules Please open the attached pdf, and read the rules and terms &amp; conditions to gain access to all the challenges for JerseyCTF V (the flag is in the pdf) Notes for the JerseyCTF V Please note that all flags are case sensitive, and unless otherwise specified in the challe...</description>
-    <pubDate>Mon, 31 Mar 2025 16:31:53 GMT</pubDate>
-  </item><item>
-    <title>Binary Exploitation</title>
-    <link>https://https://prof-starsky.github.io/CTF/Bin-Exp/Binary-Exploitation</link>
-    <guid>https://https://prof-starsky.github.io/CTF/Bin-Exp/Binary-Exploitation</guid>
-    <description></description>
-    <pubDate>Mon, 31 Mar 2025 03:16:59 GMT</pubDate>
   </item>
     </channel>
   </rss>
