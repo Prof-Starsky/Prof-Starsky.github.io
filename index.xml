@@ -6,6 +6,18 @@
       <description>Last 10 notes on Prof-Starsky&#039;s Digital Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Messages From The Stars</title>
+    <link>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Messages-From-The-Stars</link>
+    <guid>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Messages-From-The-Stars</guid>
+    <description>Messages From The Stars Description Messages From The Stars Misc Worth 193 Points We recently detected this signal from deep space, we aren’t quite sure what to make of it but we suspect it originated from intelligent life.</description>
+    <pubDate>Tue, 01 Apr 2025 02:16:15 GMT</pubDate>
+  </item><item>
+    <title>Rock my Password</title>
+    <link>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Rock-my-Password</link>
+    <guid>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Rock-my-Password</guid>
+    <description>Cryptography Hashing Description Rock my Password Cryptography Worth 150 Points I’ve come up with an extremely secure(tm) way to store my password, noone will be able to reverse it! I’ve hashed it with md5 100 times, then sha256 100 times, then sha512 100 times! There’s no way you’re going to be abl...</description>
+    <pubDate>Tue, 01 Apr 2025 02:16:15 GMT</pubDate>
+  </item><item>
     <title>Lost in Translation</title>
     <link>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Lost-in-Translation</link>
     <guid>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Lost-in-Translation</guid>
@@ -17,12 +29,6 @@
     <guid>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Planetary-Storage</guid>
     <description>Forensics Description Planetary Storage Forensics Worth 200 Points My friend found this strange file while perusing his computer, but we can’t read it.</description>
     <pubDate>Tue, 01 Apr 2025 01:48:29 GMT</pubDate>
-  </item><item>
-    <title>Rock my Password</title>
-    <link>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Rock-my-Password</link>
-    <guid>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Rock-my-Password</guid>
-    <description>Cryptography Hashing Description Rock my Password Cryptography Worth 150 Points I’ve come up with an extremely secure(tm) way to store my password, noone will be able to reverse it! I’ve hashed it with md5 100 times, then sha256 100 times, then sha512 100 times! There’s no way you’re going to be abl...</description>
-    <pubDate>Tue, 01 Apr 2025 00:50:05 GMT</pubDate>
   </item><item>
     <title>Pwn</title>
     <link>https://https://prof-starsky.github.io/CTF/Pwn/Pwn</link>
@@ -58,12 +64,6 @@
     <link>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/Prng-Pred</link>
     <guid>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/Prng-Pred</guid>
     <description>Cryptography XOR Cipher Description Prng-Pred Cryptography Worth 919 Points Hard By KDShetty11 We created a custom random number generator using XOR-Shift to help us generate pseudorandom numbers.</description>
-    <pubDate>Mon, 31 Mar 2025 20:47:14 GMT</pubDate>
-  </item><item>
-    <title>The-Hidden-Key</title>
-    <link>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/The-Hidden-Key</link>
-    <guid>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/The-Hidden-Key</guid>
-    <description>Cryptography RSA Cipher Description The-Hidden-Key Cryptography Worth 100 points Easy By Dylan An anonymous party was using Wireshark looking network activity and stumbled across this encrypted text, they then notified NICC and sent the file.</description>
     <pubDate>Mon, 31 Mar 2025 20:47:14 GMT</pubDate>
   </item>
     </channel>

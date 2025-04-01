@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en"><head><title>Messages From The Stars</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Prof-Starsky's Digital Garden"/><meta property="og:title" content="Messages From The Stars"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Messages From The Stars"/><meta name="twitter:description" content="Messages From The Stars Description Messages From The Stars Misc Worth 193 Points We recently detected this signal from deep space, we aren’t quite sure what to make of it but we suspect it originated from intelligent life."/><meta property="og:description" content="Messages From The Stars Description Messages From The Stars Misc Worth 193 Points We recently detected this signal from deep space, we aren’t quite sure what to make of it but we suspect it originated from intelligent life."/><meta property="og:image:alt" content="Messages From The Stars Description Messages From The Stars Misc Worth 193 Points We recently detected this signal from deep space, we aren’t quite sure what to make of it but we suspect it originated from intelligent life."/><meta property="og:image" content="https://https://prof-starsky.github.io//static/og-image.png"/><meta property="og:image:url" content="https://https://prof-starsky.github.io//static/og-image.png"/><meta name="twitter:image" content="https://https://prof-starsky.github.io//static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="https://prof-starsky.github.io/"/><meta property="og:url" content="https://https//prof-starsky.github.io/WRITEUPS/SwampCTF/Messages-From-The-Stars"/><meta property="twitter:url" content="https://https//prof-starsky.github.io/WRITEUPS/SwampCTF/Messages-From-The-Stars"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="Messages From The Stars Description Messages From The Stars Misc Worth 193 Points We recently detected this signal from deep space, we aren’t quite sure what to make of it but we suspect it originated from intelligent life."/><meta name="generator" content="Quartz"/><link href="../../index.css" rel="stylesheet" type="text/css" spa-preserve/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  padding: 2rem;
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvcnVubmVyL3dvcmsvUHJvZi1TdGFyc2t5LmdpdGh1Yi5pby9Qcm9mLVN0YXJza3kuZ2l0aHViLmlvL3F1YXJ0ei9jb21wb25lbnRzL3N0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTs7QUFJRjtFQUNFO0VBQ0E7RUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi5leHBhbmQtYnV0dG9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbG9hdDogcmlnaHQ7XG4gIHBhZGRpbmc6IDAuNHJlbTtcbiAgbWFyZ2luOiAwLjNyZW07XG4gIHJpZ2h0OiAwOyAvLyBOT1RFOiByaWdodCB3aWxsIGJlIHNldCBpbiBtZXJtYWlkLmlubGluZS50c1xuICBjb2xvcjogdmFyKC0tZ3JheSk7XG4gIGJvcmRlci1jb2xvcjogdmFyKC0tZGFyayk7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgYm9yZGVyOiAxcHggc29saWQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogMC4ycztcblxuICAmID4gc3ZnIHtcbiAgICBmaWxsOiB2YXIoLS1saWdodCk7XG4gICAgZmlsdGVyOiBjb250cmFzdCgwLjMpO1xuICB9XG5cbiAgJjpob3ZlciB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGJvcmRlci1jb2xvcjogdmFyKC0tc2Vjb25kYXJ5KTtcbiAgfVxuXG4gICY6Zm9jdXMge1xuICAgIG91dGxpbmU6IDA7XG4gIH1cbn1cblxucHJlIHtcbiAgJjpob3ZlciA+IC5leHBhbmQtYnV0dG9uIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHRyYW5zaXRpb246IDAuMnM7XG4gIH1cbn1cblxuI21lcm1haWQtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBjb250YWluOiBsYXlvdXQ7XG4gIHotaW5kZXg6IDk5OTtcbiAgbGVmdDogMDtcbiAgdG9wOiAwO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cig0cHgpO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG5cbiAgJi5hY3RpdmUge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfVxuXG4gICYgPiAjbWVybWFpZC1zcGFjZSB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDUwJTtcbiAgICBsZWZ0OiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA4MHZ3O1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG5cbiAgICAmID4gLm1lcm1haWQtY29udGVudCB7XG4gICAgICBwYWRkaW5nOiAycmVtO1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://https://prof-starsky.github.io//index.xml"/></head><body data-slug="WRITEUPS/SwampCTF/Messages-From-The-Stars"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../..">Prof-Starsky's Digital Garden</a></h2><div class="spacer mobile-only"></div><div style="display: flex; flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><p>Search</p><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-content"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div class="explorer-content" aria-expanded="false"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../WRITEUPS/">WRITEUPS</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../WRITEUPS/SwampCTF/">SwampCTF</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Messages From The Stars</a></div></nav><h1 class="article-title">Messages From The Stars</h1><p show-comma="true" class="content-meta"><time datetime="2025-04-01T02:16:15.000Z">Apr 01, 2025</time><span>7 min read</span></p></div></div><article class="popover-hint"><p><a href="../../WRITEUPS/SwampCTF/Messages-From-The-Stars" class="internal alias" data-slug="WRITEUPS/SwampCTF/Messages-From-The-Stars">Messages From The Stars</a></p>
+<h2 id="description">Description<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#description" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<pre><code>Messages From The Stars
+Misc
+Worth 193 Points
+</code></pre>
+<p>We recently detected this signal from deep space, we aren’t quite sure what to make of it but we suspect it originated from intelligent life. Want to take a crack at decoding it?</p>
+<p>Then it had an attached ‘message_from_the_stars.wav’ file
+<audio src="../../message_from_the_stars-(3).wav" controls></audio></p>
+<h2 id="solution">Solution<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#solution" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>After listening to the wav file, I quickly realized that the beeps were supposed to represent 1’s and 0’s, so I wrote a program that took the wav file output the binary representation:</p>
+<pre><code>import numpy as np
+
+  
+
+import scipy.io.wavfile as wav
+
+  
+
+from scipy.fftpack import fft
+
+  
+
+import matplotlib.pyplot as plt
+
+  
+
+  
+
+def detect_beeps(audio_data, sample_rate, amp_thresh_ratio=0.1, gap_duration=0.01):
+
+  
+
+ &quot;&quot;&quot;
+
+  
+
+ Detect beep segments based on amplitude.
+
+  
+
+ Returns a list of (start_sample, end_sample) tuples.
+
+  
+
+ &quot;&quot;&quot;
+
+  
+
+ # Normalize audio data
+
+  
+
+ norm_audio = audio_data / np.max(np.abs(audio_data))
+
+  
+
+ # Use a threshold relative to maximum amplitude
+
+  
+
+ amp_thresh = amp_thresh_ratio
+
+  
+
+  
+
+ # Find indices where the signal is above threshold
+
+  
+
+ indices = np.where(np.abs(norm_audio) > amp_thresh)[0]
+
+  
+
+ if len(indices) == 0:
+
+  
+
+  return []
+
+  
+
+  
+
+ beep_segments = []
+
+  
+
+ # Use gap_threshold in samples
+
+  
+
+ gap_threshold = int(gap_duration * sample_rate)
+
+  
+
+ start_idx = indices[0]
+
+  
+
+ for i in range(1, len(indices)):
+
+  
+
+  if indices[i] - indices[i-1] > gap_threshold:
+
+  
+
+   # End of a beep detected
+
+  
+
+   end_idx = indices[i-1]
+
+  
+
+   beep_segments.append((start_idx, end_idx))
+
+  
+
+   start_idx = indices[i]
+
+  
+
+ beep_segments.append((start_idx, indices[-1]))
+
+  
+
+ return beep_segments
+
+  
+
+  
+
+def dominant_frequency(segment, sample_rate):
+
+  
+
+ &quot;&quot;&quot;
+
+  
+
+ Compute the dominant frequency of a given audio segment.
+
+  
+
+ &quot;&quot;&quot;
+
+  
+
+ N = len(segment)
+
+  
+
+ fft_vals = np.abs(fft(segment))
+
+  
+
+ freqs = np.fft.fftfreq(N, 1/sample_rate)
+
+  
+
+ # Consider only the positive frequencies
+
+  
+
+ pos_mask = freqs >= 0
+
+  
+
+ freqs = freqs[pos_mask]
+
+  
+
+ fft_vals = fft_vals[pos_mask]
+
+  
+
+ # Return the frequency with maximum magnitude
+
+  
+
+ return freqs[np.argmax(fft_vals)]
+
+  
+
+  
+
+def analyze_wav(file_path):
+
+  
+
+ # Load the WAV file
+
+  
+
+ sample_rate, audio_data = wav.read(file_path)
+
+  
+
+ # Convert to mono if stereo
+
+  
+
+ if audio_data.ndim > 1:
+
+  
+
+  audio_data = np.mean(audio_data, axis=1)
+
+  
+
+ # Detect beep segments
+
+  
+
+ beep_segments = detect_beeps(audio_data, sample_rate, amp_thresh_ratio=0.1, gap_duration=0.01)
+
+  
+
+ if not beep_segments:
+
+  
+
+  print(&quot;No beeps detected.&quot;)
+
+  
+
+  return &quot;&quot;
+
+  
+
+ # For each beep, compute the dominant frequency
+
+  
+
+ beep_frequencies = []
+
+  
+
+ for start, end in beep_segments:
+
+  
+
+  segment = audio_data[start:end+1]
+
+  
+
+  freq = dominant_frequency(segment, sample_rate)
+
+  
+
+  beep_frequencies.append(freq)
+
+  
+
+ # Determine threshold frequency based on the detected frequencies.
+
+  
+
+ # Assuming two distinct clusters, we take the midpoint between min and max.
+
+  
+
+ f_min = min(beep_frequencies)
+
+  
+
+ f_max = max(beep_frequencies)
+
+  
+
+ freq_threshold = (f_min + f_max) / 2
+
+  
+
+ # Build the binary string based on the classification
+
+  
+
+ binary_string = &quot;&quot;
+
+  
+
+ for freq in beep_frequencies:
+
+  
+
+  if freq &lt; freq_threshold:
+
+  
+
+   binary_string += &quot;0&quot;
+
+  
+
+  else:
+
+  
+
+   binary_string += &quot;1&quot;
+
+  
+
+ return binary_string
+
+  
+
+if __name__ == &quot;__main__&quot;:
+
+  
+
+ file_path = &quot;message_from_the_stars.wav&quot;
+
+  
+
+ binary_output = analyze_wav(file_path)
+
+  
+
+ print(&quot;Binary output:&quot;)
+
+  
+
+ print(binary_output)
+</code></pre>
+<p>And by running this program I got:</p>
+<pre><code>0000000000000000000000000000000000000000000000000001111001111111001111110000000000000000000000000000000000000000000000000000000001000110000110000100000000000000000000000000000000000000000000000000000000000001000001000011000010000000000000000000111001100110001001111001011101110010111000100000000001100001000000000000000000100010010011001001000100110011001001100110010000000000110000100000000000000000010000001001100100000010010001000100100001001000000000011000011111100000000000000111000100101010011111001000100010010000100100000000001100001000000000000000000000010001100110001000100100010001001000010010000010000110000100000000000000000010001000110011000100010010001000100110011000100011000011000010000000000000000000111000011001100011111001000100010010111000001111000001100001000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000110000000000000001111000011110000000010000000000000000000000000000000000000000010000000000000001000010010000100010000000000000000000000000000000000000000000001000000000000000100001001000010001000000000000000000000000000000000000000000000100011111101011000001100000011001110010010111000111111001110000000000000000000010010001000110000011100000111000010001001100100100010001000100000000000000000010001000110010000000001000000010001000100100011010001100100000000000000000000011000011110001000000000110000001100100010010001100111100001110000000000000000000110010000000100001000011010000110010001001000110100000000000100000000000000000001000111110010000110001001100010001000100100011001111100100010000000000000000000100100001001000001111000011110000110010010001101000010001110000000000000000000010110000100000000000000000000000000000000000001100001000000000000000000000000001101111100000000000000000000000000000000000000011111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000001001000000000000000000000000000000000000000000000000000000000010100000000000001001000000000000000000000000000000000000000000000000000000000010010000000000001111000000011100000000000000000000000000000000000000011000000001010000000000000100110000001000000000000000000000000000000000000000010010000000010000000000000010001100000100000000000000000000000000000000100000010000100000000111111111111101000001001111101011001110001011101110000000101111110010001000000010001000100001011111000001000110001000100110011001000000001000000000000010000001000010001001000000000000100010000100011010001000100000000010101010000000100000011111111111000000000000010001000010000101000100010000000000101010111000010000000010000001000000000000001000100001000110100010001000000000000000000100010000000010100001010000000000000100010000100010010001000100000000000000000010010000000010001001000100000000000010001000001110001000100010000000000010101010001000010000000000000000000000000000000000000000000000000000000000000010101010011000010000000000000000000011111000000000000000000000000000000111110010000000010000010000000000000000000000000000000000000000000000000000000000000000111111110000010010000010000000000000000000000000000000000000000000000000000000000000000000010010000010100000000000000000000000000000000000000000000000000000000000000000010010000010001000000000000000000000000000000000000000000000000000000000000000000000010010101010000000000000000000000000000000100000001111000000000000000000111110010000100010000000000000000000000000000100010000001000010000000000000000100000100000001010000000000000000000000000000010001000000100001000000000000000100000001000010010010000001111001011100011100011100101110000001100101100000000100111110010000111110000001000100110010010001000100011001100011100011000000000010000011001000000100000000000010010001101000110010001000110000001001000000000001000010100100000010000000011111001000110100001001000100011000000110100000000000100010010010000001000000001000100100011010001100100010001101000011010000000000011000001001000000100000000100010010001101000100010001000110110001001000000000001100000100100000010000000011111001000110011100001100100011001111000100000000001111000000100000010100000000000000000000000000000000000000000000000000000000000100110000100000010001000000000000000000000000000000000000000000000000000111110010001111100000010000010000000000000000000000000000000000000000000000000000000011111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111100001110000000000000000000000011000000000000000000000000000000000000000000100001000100000000000000000000000000010000000000000000000000000000000000000000010000100010000000000000000000000000001000000000000000011001100010011110110001000000110111110011100010110101110111000100000000000000000100110010010001001000100001110000100010001001100011001100100010000000000000000010011001000000100100100000000100010001000110100001000100010001000000000000000001001010100111110001010000000011001000100001010000100010001000110000000000000000011001100010001000101000100001100100010001101000010001000100010000000000000000001100110001000100011000011000100010001000100100001000100010001000000000000000000110011000111110000100000111100001000011100010000100010001000100000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+</code></pre>
+<p>So, I thought the next logical step would be to translate this from binary to text, but it produced absolutely nothing of worth, so I got stuck for a bit until one of my teammates Janky recommended that if the number of 1’s and 0’s were prime, and that number were made up of 2 multiplied prime numbers, you could use the 1’s and 0’s to form an image usings 0’s as a black pixel, and 1’s and a white pixel. (Note, he got this  Arecibo message idea from <a href="https://www.youtube.com/watch?v=xna-kdXZQHQ&amp;t=526s&amp;ab_channel=Vsauce" class="external">https://www.youtube.com/watch?v=xna-kdXZQHQ&amp;t=526s&amp;ab_channel=Vsauce<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> because Vsauce is absolutely goated like that).</p>
+<p>So I checked how many digits there were, and sure enough there were 6241 characters, which has two prime factors 79x79. So I edited my program to output a map of the 1’s and 0’s as black and white pixels:</p>
+<pre><code>import numpy as np
+
+import scipy.io.wavfile as wav
+
+from scipy.fftpack import fft
+
+import matplotlib.pyplot as plt
+
+  
+
+def detect_beeps(audio_data, sample_rate, amp_thresh_ratio=0.1, gap_duration=0.01):
+
+    &quot;&quot;&quot;
+
+    Detect beep segments based on amplitude.
+
+    Returns a list of (start_sample, end_sample) tuples.
+
+    &quot;&quot;&quot;
+
+    # Normalize audio data
+
+    norm_audio = audio_data / np.max(np.abs(audio_data))
+
+    # Use a threshold relative to maximum amplitude
+
+    amp_thresh = amp_thresh_ratio
+
+  
+
+    # Find indices where the signal is above threshold
+
+    indices = np.where(np.abs(norm_audio) > amp_thresh)[0]
+
+    if len(indices) == 0:
+
+        return []
+
+  
+
+    beep_segments = []
+
+    # Use gap_threshold in samples
+
+    gap_threshold = int(gap_duration * sample_rate)
+
+    start_idx = indices[0]
+
+    for i in range(1, len(indices)):
+
+        if indices[i] - indices[i-1] > gap_threshold:
+
+            # End of a beep detected
+
+            end_idx = indices[i-1]
+
+            beep_segments.append((start_idx, end_idx))
+
+            start_idx = indices[i]
+
+    beep_segments.append((start_idx, indices[-1]))
+
+    return beep_segments
+
+  
+
+def dominant_frequency(segment, sample_rate):
+
+    &quot;&quot;&quot;
+
+    Compute the dominant frequency of a given audio segment.
+
+    &quot;&quot;&quot;
+
+    N = len(segment)
+
+    fft_vals = np.abs(fft(segment))
+
+    freqs = np.fft.fftfreq(N, 1/sample_rate)
+
+    # Consider only the positive frequencies
+
+    pos_mask = freqs >= 0
+
+    freqs = freqs[pos_mask]
+
+    fft_vals = fft_vals[pos_mask]
+
+    # Return the frequency with maximum magnitude
+
+    return freqs[np.argmax(fft_vals)]
+
+  
+
+def analyze_wav(file_path):
+
+    # Load the WAV file
+
+    sample_rate, audio_data = wav.read(file_path)
+
+    # Convert to mono if stereo
+
+    if audio_data.ndim > 1:
+
+        audio_data = np.mean(audio_data, axis=1)
+
+    # Detect beep segments
+
+    beep_segments = detect_beeps(audio_data, sample_rate, amp_thresh_ratio=0.1, gap_duration=0.01)
+
+    if not beep_segments:
+
+        print(&quot;No beeps detected.&quot;)
+
+        return &quot;&quot;
+
+    # For each beep, compute the dominant frequency
+
+    beep_frequencies = []
+
+    for start, end in beep_segments:
+
+        segment = audio_data[start:end+1]
+
+        freq = dominant_frequency(segment, sample_rate)
+
+        beep_frequencies.append(freq)
+
+    # Determine threshold frequency based on the detected frequencies.
+
+    # Assuming two distinct clusters, we take the midpoint between min and max.
+
+    f_min = min(beep_frequencies)
+
+    f_max = max(beep_frequencies)
+
+    freq_threshold = (f_min + f_max) / 2
+
+    # Build the binary string based on the classification
+
+    binary_string = &quot;&quot;
+
+    for freq in beep_frequencies:
+
+        if freq &lt; freq_threshold:
+
+            binary_string += &quot;0&quot;
+
+        else:
+
+            binary_string += &quot;1&quot;
+
+    return binary_string
+
+  
+
+def generate_image_from_binary(binary_string, p1, p2):
+
+    &quot;&quot;&quot;
+
+    Generates and displays an image from the binary string using dimensions p1 x p2.
+
+    The binary string is trimmed or padded to exactly p1*p2 bits.
+
+    &quot;&quot;&quot;
+
+    total_bits = p1 * p2
+
+    # Trim or pad the binary string as needed
+
+    if len(binary_string) > total_bits:
+
+        binary_string = binary_string[:total_bits]
+
+    else:
+
+        binary_string = binary_string.ljust(total_bits, &quot;0&quot;)
+
+    # Create a numpy array and reshape
+
+    grid = np.array(list(binary_string), dtype=int).reshape((p1, p2))
+
+    # Display the image
+
+    plt.figure(figsize=(8, 8))
+
+    plt.imshow(grid, cmap=&quot;gray&quot;, interpolation=&quot;nearest&quot;)
+
+    plt.title(f&quot;Binary Image ({p1} x {p2})&quot;)
+
+    plt.axis(&quot;off&quot;)
+
+    plt.show()
+
+  
+
+if __name__ == &quot;__main__&quot;:
+
+    file_path = &quot;message_from_the_stars.wav&quot;
+
+    binary_output = analyze_wav(file_path)
+
+    print(&quot;Binary output:&quot;)
+
+    print(binary_output)
+
+    # Create a 79x79 image from the binary output
+
+    generate_image_from_binary(binary_output, 79, 79)
+</code></pre>
+<p>After being run, the program gives the following output:</p>
+<p><img src="../../Pasted-image-20250331221503.png" width="auto" height="auto" alt/></p>
+<h2 id="flag">Flag<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#flag" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>So, after taking the correct flag from the program output, I get:
+swampCTF{gr33tings_from_anoth3r_wav3form}</p></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-content" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul class="toc-content overflow" id="list-1"><li class="depth-0"><a href="#description" data-for="description">Description</a></li><li class="depth-0"><a href="#solution" data-for="solution">Solution</a></li><li class="depth-0"><a href="#flag" data-for="flag">Flag</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../../WRITEUPS/SwampCTF/Messages-From-The-Stars" class="internal">Messages From The Stars</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.0</a> © 2025</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript">function o(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.classList.contains("is-collapsed")?this.scrollHeight:t.scrollHeight;t.style.maxHeight=e+"px";let c=t,l=t.parentElement;for(;l;){if(!l.classList.contains("callout"))return;let i=l.classList.contains("is-collapsed")?l.scrollHeight:l.scrollHeight+c.scrollHeight;l.style.maxHeight=i+"px",c=l,l=l.parentElement}}function n(){let t=document.getElementsByClassName("callout is-collapsible");for(let s of t){let e=s.firstElementChild;if(!e)continue;e.addEventListener("click",o),window.addCleanup(()=>e.removeEventListener("click",o));let l=s.classList.contains("is-collapsed")?e.scrollHeight:s.scrollHeight;s.style.maxHeight=l+"px"}}document.addEventListener("nav",n);
+</script><script type="module">function f(i,e){if(!i)return;function r(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function t(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}i?.addEventListener("click",r),window.addCleanup(()=>i?.removeEventListener("click",r)),document.addEventListener("keydown",t),window.addCleanup(()=>document.removeEventListener("keydown",t))}function y(i){for(;i.firstChild;)i.removeChild(i.firstChild)}var h=class{constructor(e,r){this.container=e;this.content=r;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),r=this.onMouseMove.bind(this),t=this.onMouseUp.bind(this),o=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",r),document.addEventListener("mouseup",t),window.addEventListener("resize",o),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",r),()=>document.removeEventListener("mouseup",t),()=>window.removeEventListener("resize",o))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let r=this.createButton("+",()=>this.zoom(.1)),t=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(t),e.appendChild(o),e.appendChild(r),this.container.appendChild(e)}createButton(e,r){let t=document.createElement("button");return t.textContent=e,t.className="mermaid-control-button",t.addEventListener("click",r),window.addCleanup(()=>t.removeEventListener("click",r)),t}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}zoom(e){let r=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),t=this.content.getBoundingClientRect(),o=t.width/2,n=t.height/2,c=r-this.scale;this.currentPan.x-=o*c,this.currentPan.y-=n*c,this.scale=r,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){this.scale=1;let e=this.content.querySelector("svg");this.currentPan={x:e.getBoundingClientRect().width/2,y:e.getBoundingClientRect().height/2},this.updateTransform()}},C=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],E;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;E||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let r=E.default,t=new WeakMap;for(let n of e)t.set(n,n.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let a=t.get(s);a&&(s.innerHTML=a)}let n=C.reduce((s,a)=>(s[a]=window.getComputedStyle(document.documentElement).getPropertyValue(a),s),{}),c=document.documentElement.getAttribute("saved-theme")==="dark";r.initialize({startOnLoad:!1,securityLevel:"loose",theme:c?"dark":"base",themeVariables:{fontFamily:n["--codeFont"],primaryColor:n["--light"],primaryTextColor:n["--darkgray"],primaryBorderColor:n["--tertiary"],lineColor:n["--darkgray"],secondaryColor:n["--secondary"],tertiaryColor:n["--tertiary"],clusterBkg:n["--light"],edgeLabelBackground:n["--highlight"]}}),await r.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let n=0;n<e.length;n++){let v=function(){let g=l.querySelector("#mermaid-space"),m=l.querySelector(".mermaid-content");if(!m)return;y(m);let w=c.querySelector("svg").cloneNode(!0);m.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new h(g,m)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},c=e[n],s=c.parentElement,a=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(a),L=a.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),f(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../../postscript.js" type="module"></script></html>
