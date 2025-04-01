@@ -29,7 +29,7 @@ So, in order to solve the RSA you have to follow the following steps for each ci
 - Factorize n to find p and q
 - Compute ϕ(n)=(p−1)(q−1)
 - Find d as the modular inverse of e modulo ϕ(n)
-- Computer m = c^d mod(n)
+- Compute m = c^d mod(n)
 - Use m and the ASCII alphabet to find what letter each ciphertext corresponds to
 
 I then wrote a simple program that ran through the above steps for each of the ciphertexts
