@@ -345,9 +345,9 @@ And by running this program I got:
 ```
 
 
-So, I thought the next logical step would be to translate this from binary to text, but it produced absolutely nothing of worth, so I got stuck for a bit until one of my teammates Janky recommended that if the number of 1's and 0's were prime, and that number were made up of 2 multiplied prime numbers, you could use the 1's and 0's to form an image usings 0's as a black pixel, and 1's and a white pixel. (Note, he got this  Arecibo message idea from https://www.youtube.com/watch?v=xna-kdXZQHQ&t=526s&ab_channel=Vsauce because Vsauce is absolutely goated like that).
+So, I thought the next logical step would be to translate this from binary to text, but it produced absolutely nothing of worth, so I got stuck for a bit until one of my teammates Janky recommended that if the number of 1's and 0's were semiprime such that the number was a product of exactly 2 prime numbers, you could use the 1's and 0's to form an image usings 0's as a black pixel, and 1's and a white pixel. (Note, he got this  Arecibo message idea from https://www.youtube.com/watch?v=xna-kdXZQHQ&t=526s&ab_channel=Vsauce because Vsauce is absolutely goated like that).
 
-So I checked how many digits there were, and sure enough there were 6241 characters, which has two prime factors 79x79. So I edited my program to output a map of the 1's and 0's as black and white pixels:
+So I checked how many digits there were, and sure enough there were 6241 characters which is semi prime, and is the product of exactly 2 primes numbers, 79x79. So I edited my program to output a map of the 1's and 0's as black and white pixels:
 
 
 
