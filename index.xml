@@ -6,6 +6,12 @@
       <description>Last 10 notes on Prof-Starsky&#039;s Digital Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Planetary Storage</title>
+    <link>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Planetary-Storage</link>
+    <guid>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Planetary-Storage</guid>
+    <description>Forensics Description Planetary Storage Forensics Worth 200 Points My friend found this strange file while perusing his computer, but we can’t read it.</description>
+    <pubDate>Tue, 01 Apr 2025 01:20:19 GMT</pubDate>
+  </item><item>
     <title>Rock my Password</title>
     <link>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Rock-my-Password</link>
     <guid>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Rock-my-Password</guid>
@@ -58,12 +64,6 @@
     <link>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/The-Veiled-Backtrace</link>
     <guid>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/The-Veiled-Backtrace</guid>
     <description>Forensics Description The-Veiled-Backtrace Forensics Worth 930 Points Easy By Trent A hard drive full of photos.</description>
-    <pubDate>Mon, 31 Mar 2025 20:47:14 GMT</pubDate>
-  </item><item>
-    <title>evtx</title>
-    <link>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/evtx</link>
-    <guid>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/evtx</guid>
-    <description>Forensics Description evtx Forensics Worth 453 Points Easy By Jan It appears that one of the low-level grunts of the NICC organization have gone rogue.</description>
     <pubDate>Mon, 31 Mar 2025 20:47:14 GMT</pubDate>
   </item>
     </channel>
