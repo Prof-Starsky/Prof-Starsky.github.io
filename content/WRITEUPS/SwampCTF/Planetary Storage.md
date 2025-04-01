@@ -74,4 +74,3 @@ which finally wasn't a red herring
 ## Flag
 
 So using the only non-red herring, I got the correct flag:
-swampCTF{1pf5-b453d-d474b453}
