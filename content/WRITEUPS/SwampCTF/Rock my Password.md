@@ -23,7 +23,7 @@ Note: The entire flag (swampCTF{rockyoupassword}) was hashed to get the provided
 
 After first looking at this challenge, I tried to come up with some way to brute force the hashed password, but quickly realized that it would take a near infinite amount of time. 
 
-So, one of my teammates Jacky came up with the idea to instead, hash every 10 character password in the RockYou database through md5 100 times, sha256 100 times, then sha512 100 times and compare it against the already hashed password. In his words 'cause hashing forward is really fast'.
+So, one of my teammates Janky came up with the idea to instead, hash every 10 character password in the RockYou database through md5 100 times, sha256 100 times, then sha512 100 times and compare it against the already hashed password. In his words 'cause hashing forward is really fast'.
 
 So I implemented it just like that. I created a program that went through every 10 character password in the RockYou data base, hash it 300 times, and compare it to the target hash as shown below:
 
