@@ -6,6 +6,12 @@
       <description>Last 10 notes on Prof-Starsky&#039;s Digital Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Sanity Check</title>
+    <link>https://https://prof-starsky.github.io/WRITEUPS/PlaidCTF/Sanity-Check</link>
+    <guid>https://https://prof-starsky.github.io/WRITEUPS/PlaidCTF/Sanity-Check</guid>
+    <description>Miscellaneous Description Sanity Check Misc Worth 1 point Posted by Sheriff f0xtr0t With Deputy iamcorwin The wind blew hot and mean across the cracked earth of a sunbaked speck of a town crouched between two bluffs like a secret kept too long.</description>
+    <pubDate>Fri, 04 Apr 2025 23:46:46 GMT</pubDate>
+  </item><item>
     <title>The-Hidden-Key</title>
     <link>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/The-Hidden-Key</link>
     <guid>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/The-Hidden-Key</guid>
@@ -59,12 +65,6 @@
     <guid>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Join-our-Discord</guid>
     <description>Description Join our Discord Misc Worth 25 Points discord.gg/9H6HbcMk7X Solution After reading the challenge description I decided to follow the link to see where it went.</description>
     <pubDate>Mon, 31 Mar 2025 22:08:17 GMT</pubDate>
-  </item><item>
-    <title>Frequencies-of-Deception</title>
-    <link>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/Frequencies-of-Deception</link>
-    <guid>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/Frequencies-of-Deception</guid>
-    <description>Forensics Description Frequencies-of-Deception Forensics Worth 822 Points Easy By Trent An intercepted audio transmission carries a veiled warning.</description>
-    <pubDate>Mon, 31 Mar 2025 20:47:14 GMT</pubDate>
   </item>
     </channel>
   </rss>
