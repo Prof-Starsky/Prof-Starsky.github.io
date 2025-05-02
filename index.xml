@@ -6,65 +6,65 @@
       <description>Last 10 notes on Prof-Starsky&#039;s Digital Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Sanity Check</title>
-    <link>https://https://prof-starsky.github.io/WRITEUPS/PlaidCTF/Sanity-Check</link>
-    <guid>https://https://prof-starsky.github.io/WRITEUPS/PlaidCTF/Sanity-Check</guid>
-    <description>Miscellaneous Description Sanity Check Misc Worth 1 point Posted by Sheriff f0xtr0t With Deputy iamcorwin The wind blew hot and mean across the cracked earth of a sunbaked speck of a town crouched between two bluffs like a secret kept too long.</description>
-    <pubDate>Fri, 04 Apr 2025 23:46:46 GMT</pubDate>
+    <title>Ask Nicely</title>
+    <link>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/Ask-Nicely</link>
+    <guid>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/Ask-Nicely</guid>
+    <description>Forensics Description Ask Nicely Forensics Worth 668 Points By ronnie I made this program, you just have to ask really nicely for the flag! And attached is a file ‘asknicely’.</description>
+    <pubDate>Fri, 02 May 2025 19:52:56 GMT</pubDate>
   </item><item>
-    <title>The-Hidden-Key</title>
-    <link>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/The-Hidden-Key</link>
-    <guid>https://https://prof-starsky.github.io/WRITEUPS/JerseyCTF/The-Hidden-Key</guid>
-    <description>Cryptography RSA Cipher Description The-Hidden-Key Cryptography Worth 100 points Easy By Dylan An anonymous party was using Wireshark looking network activity and stumbled across this encrypted text, they then notified NICC and sent the file.</description>
-    <pubDate>Tue, 01 Apr 2025 17:49:17 GMT</pubDate>
+    <title>Blank Image</title>
+    <link>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/Blank-Image</link>
+    <guid>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/Blank-Image</guid>
+    <description>Steganography Description Blank Image Steganography Worth 589 Points By ronnie I was gonna make a really cool challenge but then I literally forgot about it so all I have is this blank image.</description>
+    <pubDate>Fri, 02 May 2025 19:52:56 GMT</pubDate>
   </item><item>
-    <title>Messages From The Stars</title>
-    <link>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Messages-From-The-Stars</link>
-    <guid>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Messages-From-The-Stars</guid>
-    <description>Messages From The Stars Description Messages From The Stars Misc Worth 193 Points We recently detected this signal from deep space, we aren’t quite sure what to make of it but we suspect it originated from intelligent life.</description>
-    <pubDate>Tue, 01 Apr 2025 03:53:54 GMT</pubDate>
+    <title>Brainrot Quiz!</title>
+    <link>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/Brainrot-Quiz!</link>
+    <guid>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/Brainrot-Quiz!</guid>
+    <description>Forensics Description Brainrot Quiz! Forensics Worth 480 Points By boom Bombardiro Crocodillo or…? You find out… SHA256: e5f5d4e97506233266904e460fdfea4fc3ce2bf1542dc122283835c545fb8516 Then there’s an attached pcap file Solution After looking through each of the Echo (ping) requests and replies onl...</description>
+    <pubDate>Fri, 02 May 2025 19:52:56 GMT</pubDate>
   </item><item>
-    <title>Rock my Password</title>
-    <link>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Rock-my-Password</link>
-    <guid>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Rock-my-Password</guid>
-    <description>Cryptography Hashing Description Rock my Password Cryptography Worth 150 Points I’ve come up with an extremely secure(tm) way to store my password, noone will be able to reverse it! I’ve hashed it with md5 100 times, then sha256 100 times, then sha512 100 times! There’s no way you’re going to be abl...</description>
-    <pubDate>Tue, 01 Apr 2025 02:16:15 GMT</pubDate>
+    <title>Calculator</title>
+    <link>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/Calculator</link>
+    <guid>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/Calculator</guid>
+    <description>Miscellaneous Description Calculator Misc Worth 777 Points By ronnie Find the flag.</description>
+    <pubDate>Fri, 02 May 2025 19:52:56 GMT</pubDate>
   </item><item>
-    <title>Lost in Translation</title>
-    <link>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Lost-in-Translation</link>
-    <guid>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Lost-in-Translation</guid>
-    <description>Miscellaneous Description Lost in Translation Misc Worth 158 points We found this program which we know has a flag somewhere, but nothing we’ve tried has been able to extract it.</description>
-    <pubDate>Tue, 01 Apr 2025 01:48:29 GMT</pubDate>
+    <title>I AM Steve</title>
+    <link>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/I-AM-Steve</link>
+    <guid>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/I-AM-Steve</guid>
+    <description>Steganography Description I AM Steve Steganography Worth 644 Points By kristine You were supposed to be a hero, Brian! SHA256: 01b3dbe5d8801adf27a9bb779d85ef4c8881905544642fbdbdd41e54e4d0ae5e Then it had the following image attached: Solution By putting the chicked_jockey image into Aperisolve you’r...</description>
+    <pubDate>Fri, 02 May 2025 19:52:56 GMT</pubDate>
   </item><item>
-    <title>Planetary Storage</title>
-    <link>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Planetary-Storage</link>
-    <guid>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Planetary-Storage</guid>
-    <description>Forensics Description Planetary Storage Forensics Worth 200 Points My friend found this strange file while perusing his computer, but we can’t read it.</description>
-    <pubDate>Tue, 01 Apr 2025 01:48:29 GMT</pubDate>
+    <title>Mongolian throat singing</title>
+    <link>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/Mongolian-throat-singing</link>
+    <guid>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/Mongolian-throat-singing</guid>
+    <description>Miscellaneous Description Mongolian throat singing Misc Worth 922 Points By boom Send us a clip of you singing your heart out to The Hu for the flag! Just kidding, open that terminal and get to work.</description>
+    <pubDate>Fri, 02 May 2025 19:52:56 GMT</pubDate>
   </item><item>
-    <title>Pwn</title>
-    <link>https://https://prof-starsky.github.io/CTF/Pwn/Pwn</link>
-    <guid>https://https://prof-starsky.github.io/CTF/Pwn/Pwn</guid>
-    <description></description>
-    <pubDate>Mon, 31 Mar 2025 22:41:00 GMT</pubDate>
+    <title>Read Only</title>
+    <link>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/Read-Only</link>
+    <guid>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/Read-Only</guid>
+    <description>Reverse Engineering Description Read Only Reverse Engineering Worth 534 Points By ronnie Here we go! Flag Format: CIT{example_flag} Then attached is a file ‘readonly’ Solution Since the file is called readonly, I suspected that I would find the flag somewhere inside the code, and not by running it.</description>
+    <pubDate>Fri, 02 May 2025 19:52:56 GMT</pubDate>
   </item><item>
-    <title>Beginner Pwn 1</title>
-    <link>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Beginner-Pwn-1</link>
-    <guid>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Beginner-Pwn-1</guid>
-    <description>Pwn Description Beginner Pwn 1 Pwn Worth 25 Points Are you really admin? This challenge serves as an introduction to pwn that new ctfers can use to grasp basic pwn concepts.</description>
-    <pubDate>Mon, 31 Mar 2025 22:41:00 GMT</pubDate>
+    <title>Rotten</title>
+    <link>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/Rotten</link>
+    <guid>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/Rotten</guid>
+    <description>Cryptography Description Rotten Cryptography Worth 304 Points By ronnie PVG{LxxdJwAXJGcsDoncKfRctddA} Flag Format: CIT{example_flag} Solution After looking at PVG{LxxdJwAXJGcsDoncKfRctddA} it seems fairly obvious that this is a Caesar cipher Flag And after you put it through Rot13 you get the correc...</description>
+    <pubDate>Fri, 02 May 2025 19:52:56 GMT</pubDate>
   </item><item>
-    <title>Pretty Picture Double Exposure</title>
-    <link>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Pretty-Picture-Double-Exposure</link>
-    <guid>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Pretty-Picture-Double-Exposure</guid>
-    <description>Miscellaneous Description Pretty Picture: Double Exposure Misc Worth 25 points Hidden in the bits below, an image wait’s to be shown.</description>
-    <pubDate>Mon, 31 Mar 2025 22:21:34 GMT</pubDate>
+    <title>Select all squares that contain uhh...</title>
+    <link>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/Select-all-squares-that-contain-uhh...</link>
+    <guid>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/Select-all-squares-that-contain-uhh...</guid>
+    <description>Miscellaneous Description Select all squares that contain uhh..</description>
+    <pubDate>Fri, 02 May 2025 19:52:56 GMT</pubDate>
   </item><item>
-    <title>Join our Discord</title>
-    <link>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Join-our-Discord</link>
-    <guid>https://https://prof-starsky.github.io/WRITEUPS/SwampCTF/Join-our-Discord</guid>
-    <description>Description Join our Discord Misc Worth 25 Points discord.gg/9H6HbcMk7X Solution After reading the challenge description I decided to follow the link to see where it went.</description>
-    <pubDate>Mon, 31 Mar 2025 22:08:17 GMT</pubDate>
+    <title>True CTF Love</title>
+    <link>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/True-CTF-Love</link>
+    <guid>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/True-CTF-Love</guid>
+    <description>Forensics Description True CTF love Forensics Worth 552 Points By boom I got this strange email from another CTF participant not too long ago.</description>
+    <pubDate>Fri, 02 May 2025 19:52:56 GMT</pubDate>
   </item>
     </channel>
   </rss>
