@@ -30,7 +30,7 @@ IDA
 
 # Forensics
 Wireshark  
-
+Hexedit
 
 # Pwn
 IDA  
