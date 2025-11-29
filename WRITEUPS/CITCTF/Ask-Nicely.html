@@ -135,9 +135,9 @@ Then if you respond incorrectly it says:
 <code>that's not quite what I'm lookng for.</code></p>
 <p>So it’s clear that we need to find the right input/phrase that it’s looking for.</p>
 <p>So I then disassembled the code and got the following:
-<img src="../../Pasted-image-20250430130831.png" width="auto" height="auto" alt/>
-<img src="../../Pasted-image-20250430130909.png" width="auto" height="auto" alt/>
-<img src="../../Pasted-image-20250430130936.png" width="auto" height="auto" alt/></p>
+<img src="../../WRITEUPS/Images-and-Media/Pasted-image-20250430130831.png" width="auto" height="auto" alt/>
+<img src="../../WRITEUPS/Images-and-Media/Pasted-image-20250430130909.png" width="auto" height="auto" alt/>
+<img src="../../WRITEUPS/Images-and-Media/Pasted-image-20250430130936.png" width="auto" height="auto" alt/></p>
 <p>After looking through it, I noticed that after it tells me to ‘Ask nicely…’ it will either output “Good job, I’m so proud of you!” or “that’s not quite what I’m looking for”.
 And in the aGoodJobIMSoPro side you can also see:
 <code>call    _Z9give_flagNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE ; give_flag(std::string)</code>
@@ -149,7 +149,7 @@ which seems like the Ask Nicely phrase we’re looking for
 So if you dig a little deeper you get:
 <code>.rodata:0000000000576030 aPrettyPrettyPr db 'pretty pretty pretty pretty pretty please with sprinkles and a ch'</code>
 which is close but not complete, so if you use shift+f12 in IDA to view the strings you’ll find:
-<img src="../../Pasted-image-20250430132155.png" width="auto" height="auto" alt/>
+<img src="../../WRITEUPS/Images-and-Media/Pasted-image-20250430132155.png" width="auto" height="auto" alt/>
 which seems like the right phrase, ‘pretty pretty pretty pretty pretty please with sprinkles and a cherry on top’.</p>
 <h2 id="flag">Flag<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#flag" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
 <p>So if you run the asknicely program with the right inputs:
