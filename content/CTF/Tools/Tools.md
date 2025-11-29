@@ -12,18 +12,20 @@ https://www.dcode.fr/base-64-encoding (base64)
 https://gchq.github.io/CyberChef/#recipe=Bcrypt(10) (b-crypt)  
 https://www.devglan.com/online-tools/bcrypt-hash-generator (b-crypt)  
 https://www.dcode.fr/crypt-hashing-function (b-crypt)  
-
-# Steganography
-### Online tools
+https://www.dcode.fr/ook-language (worst thing ever)
+[https://www.dcode.fr/whitespace-language](https://www.dcode.fr/whitespace-language) (Absolutely love whitespace)
+### Steganography
 https://base64.guru/converter/decode/image (base64 to image)  
 https://www.aperisolve.com/ (Image data)  
 https://stylesuxx.github.io/steganography/ (Image data)  
-### Downloadable tools
+[https://www.youtube.com/watch?v=xna-kdXZQHQ&t=526s&ab_channel=Vsauce](https://www.youtube.com/watch?v=xna-kdXZQHQ&t=526s&ab_channel=Vsauce)  Arecibo (Binary to image)
 Steghide   
 Exiftool   
 Binwalk  
-Wavsteg  
-
+### Audio Steganography
+https://morsefm.com/ (Morse Code)
+[https://dtmf.netlify.app/](https://dtmf.netlify.app/) (Old Phone Dial Numbers)
+Wavsteg 
 
 # Reverse Engineering
 IDA  
@@ -40,3 +42,5 @@ IDA
 ### Downloadable tools
 BurpSuite  
 
+
+# Misc
