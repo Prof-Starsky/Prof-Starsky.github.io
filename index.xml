@@ -6,16 +6,22 @@
       <description>Last 10 notes on Prof-Starsky&#039;s Digital Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Hashing</title>
-    <link>https://https://prof-starsky.github.io/CTF/Cryptography/Ciphers/Hashing</link>
-    <guid>https://https://prof-starsky.github.io/CTF/Cryptography/Ciphers/Hashing</guid>
-    <description>Hashing MD5 BCrypt SHA1 SHA256 SHA512 Blowfish Idea for solving hashes where it goes This is the encrypted text, it has been encrypted 20 times by ‘a’ 50 times by ‘b’ then 100 times by ‘c’ with a known list of words for what the original is.</description>
-    <pubDate>Sat, 29 Nov 2025 07:09:16 GMT</pubDate>
+    <title>Image Forensics</title>
+    <link>https://https://prof-starsky.github.io/CTF/Forensics/Image-Forensics</link>
+    <guid>https://https://prof-starsky.github.io/CTF/Forensics/Image-Forensics</guid>
+    <description>If you get a file that’s supposed to be an image but shows as a file, check the hex starting code and make sure it corresponds to the correct image type Ex all Jpeg should start with FF D8 FF PNG: 89 50 4E 47 0D 0A 1A 0A.</description>
+    <pubDate>Thu, 04 Dec 2025 04:01:17 GMT</pubDate>
   </item><item>
     <title>Tools</title>
     <link>https://https://prof-starsky.github.io/CTF/Tools/Tools</link>
     <guid>https://https://prof-starsky.github.io/CTF/Tools/Tools</guid>
     <description>Cryptography General www.dcode.fr/cipher-identifier (cipher identification) gchq.github.io/CyberChef/ Specific www.dcode.fr/atbash-cipher (atbash) www.dcode.fr/base-32-encoding (base32) cryptii.com/pipes/base32 (base32) www.base64decode.org/ (base64) www.dcode.fr/base-64-encoding (base64) gchq.githu...</description>
+    <pubDate>Thu, 04 Dec 2025 04:01:17 GMT</pubDate>
+  </item><item>
+    <title>Hashing</title>
+    <link>https://https://prof-starsky.github.io/CTF/Cryptography/Ciphers/Hashing</link>
+    <guid>https://https://prof-starsky.github.io/CTF/Cryptography/Ciphers/Hashing</guid>
+    <description>Hashing MD5 BCrypt SHA1 SHA256 SHA512 Blowfish Idea for solving hashes where it goes This is the encrypted text, it has been encrypted 20 times by ‘a’ 50 times by ‘b’ then 100 times by ‘c’ with a known list of words for what the original is.</description>
     <pubDate>Sat, 29 Nov 2025 07:09:16 GMT</pubDate>
   </item><item>
     <title>Ask Nicely</title>
@@ -58,12 +64,6 @@
     <link>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/Read-Only</link>
     <guid>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/Read-Only</guid>
     <description>Reverse Engineering Description Read Only Reverse Engineering Worth 534 Points By ronnie Here we go! Flag Format: CIT{example_flag} Then attached is a file ‘readonly’ Solution Since the file is called readonly, I suspected that I would find the flag somewhere inside the code, and not by running it.</description>
-    <pubDate>Fri, 02 May 2025 19:52:56 GMT</pubDate>
-  </item><item>
-    <title>Rotten</title>
-    <link>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/Rotten</link>
-    <guid>https://https://prof-starsky.github.io/WRITEUPS/CITCTF/Rotten</guid>
-    <description>Cryptography Description Rotten Cryptography Worth 304 Points By ronnie PVG{LxxdJwAXJGcsDoncKfRctddA} Flag Format: CIT{example_flag} Solution After looking at PVG{LxxdJwAXJGcsDoncKfRctddA} it seems fairly obvious that this is a Caesar cipher Flag And after you put it through Rot13 you get the correc...</description>
     <pubDate>Fri, 02 May 2025 19:52:56 GMT</pubDate>
   </item>
     </channel>
