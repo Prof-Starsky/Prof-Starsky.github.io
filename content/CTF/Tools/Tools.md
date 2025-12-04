@@ -14,6 +14,7 @@ https://www.devglan.com/online-tools/bcrypt-hash-generator (b-crypt)
 https://www.dcode.fr/crypt-hashing-function (b-crypt)  
 https://www.dcode.fr/ook-language (worst thing ever)
 [https://www.dcode.fr/whitespace-language](https://www.dcode.fr/whitespace-language) (Absolutely love whitespace)
+https://www.guballa.de/substitution-solver (Substitution Cipher)
 ### Steganography
 https://base64.guru/converter/decode/image (base64 to image)  
 https://www.aperisolve.com/ (Image data)  
@@ -29,6 +30,7 @@ Wavsteg
 
 # Reverse Engineering
 IDA  
+Binary Ninja  
 
 # Forensics
 Wireshark  
@@ -36,6 +38,7 @@ Hexedit
 
 # Pwn
 IDA  
+Binary Ninja  
 
 # Web Exploitation
 
